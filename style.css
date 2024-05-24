@@ -1,0 +1,126 @@
+body {
+    overflow: hidden;
+    font-family: Rubik;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(2, 200px);
+    gap: 10px;
+    align-content: center;
+    justify-content: center;
+    height: 100dvh;
+    color: white;
+    background-color: rgba(193, 144, 75, 0.371);
+
+}
+
+.box {
+    background-color: rgba(122, 118, 118, 0.8);
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.box:nth-child(1) {
+    grid-row: span 2;
+}
+
+.class {
+    border-radius: 10px;
+}
+
+.box:nth-child(1) {
+    background-color: #1E1F4D;
+}
+
+.box:nth-child(2) {
+    background-color: rgb(218, 101, 23);
+}
+
+.box:nth-child(3) {
+    background-color: rgb(103, 168, 234);
+}
+
+.box:nth-child(4) {
+    background-color: rgb(227, 128, 211);
+}
+
+.box:nth-child(5) {
+    background-color: rgb(64, 226, 85);
+}
+
+.box:nth-child(6) {
+    background-color: rgb(60, 45, 149);
+
+}
+
+.box:nth-child(7) {
+    background-color: rgb(172, 74, 29);
+}
+
+.vi {
+    background-color: rgb(153, 34, 233);
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.vii {
+    background-color: #1E1F4D;
+    height: 74.75%;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.top {
+    display: flex;
+    margin: 0;
+    padding: 20px 20px 0 20px;
+    justify-content: space-between;
+}
+
+h6 {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+    padding: 20px 0 0 10px;
+}
+
+p {
+    margin: 0;
+    font-size: 15px;
+    opacity: 0.5;
+    padding-left: 15px;
+}
+
+.vi img {
+    height: 60px;
+    width: 60px;
+    margin: 20px 0 0 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.vi p {
+    margin: 20px 0 0 10px;
+}
+
+.vi h2 {
+    margin-top: 0;
+    font-size: 30px;
+    margin-left: 20px;
+
+}
+
+.bottom {
+    font-size: 10px;
+    margin: 30px 0 0 20px;
+}
+
+.bottom #one,
+#three {
+    opacity: 0.5;
+}
