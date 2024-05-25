@@ -1,18 +1,18 @@
 body {
-    overflow: hidden;
+   
     font-family: Rubik;
 }
 
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(4, 200px);
-    grid-template-rows: repeat(2, 200px);
+    grid-template-columns: repeat(auto-fill, minmax(200px , 1fr));
+  
     gap: 10px;
     align-content: center;
     justify-content: center;
-    height: 100dvh;
+    
     color: white;
-    background-color: rgba(193, 144, 75, 0.371);
+    background-color: rgba(4, 203, 87, 0.371);
 
 }
 
@@ -24,6 +24,7 @@ body {
 
 .box:nth-child(1) {
     grid-row: span 2;
+    
 }
 
 .class {
@@ -62,8 +63,9 @@ body {
 .vi {
     background-color: rgb(153, 34, 233);
     height: 250px;
-    width: 200px;
+    
     border-radius: 20px;
+    
 }
 
 .vii {
@@ -124,3 +126,11 @@ p {
 #three {
     opacity: 0.5;
 }
+
+@media (min-width: 1025px) {
+    .wrapper{
+        height: 100dvh;
+        grid-template-columns: repeat(4,210px);
+    }
+}
+
